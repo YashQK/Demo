@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=89yWXXIOisk
+https://wiki.jenkins.io/display/JENKINS/Step+by+step+guide+to+set+up+master+and+slave+machines+on+Windows
+https://devops.com/continuous-delivery-pipeline/
+https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin
+https://jenkins.io/doc/book/pipeline/jenkinsfile/#working-with-your-jenkinsfile
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/

@@ -1,0 +1,43 @@
+
+Q4451@QKDSK414 MINGW64 /d/Yash Files/Jenkins
+$ echo "# Demo" >> README.md
+
+Q4451@QKDSK414 MINGW64 /d/Yash Files/Jenkins
+$ git init
+Initialized empty Git repository in D:/Yash Files/Jenkins/.git/
+
+Q4451@QKDSK414 MINGW64 /d/Yash Files/Jenkins (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+
+Q4451@QKDSK414 MINGW64 /d/Yash Files/Jenkins (master)
+$ git commit -m "first commit"
+[master (root-commit) 0ea7be8] first commit
+ Committer: Yash Bhise <Q4451@Corp.qualitykiosk.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Q4451@QKDSK414 MINGW64 /d/Yash Files/Jenkins (master)
+$ git remote add origin https://github.com/YashQK/Demo.git
+
+Q4451@QKDSK414 MINGW64 /d/Yash Files/Jenkins (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 228 bytes | 228.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/YashQK/Demo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
